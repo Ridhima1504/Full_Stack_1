@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Finder</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+     <nav>
+        <h2>🌍 InfoHub</h2>
+        <div>
+            <a href="index.html">
+                Home
+            </a>
+
+            <a href="weather.html">
+                Weather
+            </a>
+
+            <a href="movies.html">
+                Movies
+            </a>
+        </div>
+     </nav>
+
+     <!-- Weather -->
+      <main class="page">
+        <div class="search-box">
+            <p class="small-title">
+                WEATHER FINDER
+            </p>
+
+            <h1>
+                How's the weather?
+            </h1>
+
+            <p>
+                Enter a city name to see its current weather.
+            </p>
+
+            <form action="" id="weatherForm">
+                <input 
+                    type="text"
+                    id="city"
+                    placeholder="Enter city name..."
+                    required
+                >
+
+                <button type="submit">
+                    Search
+                </button>
+            </form>
+
+            <p id="weatherMessage"></p>
+
+            <!-- Weather Card -->
+             <div id="weatherCard" class="weather-card">
+                <h2 id="place">
+                    jaipur
+                </h2>
+                <div class="big-temp">
+                    <span id="temp">
+                        --
+                    </span>
+
+                    °C
+                </div>
+                <p id="condition">
+                    --
+                </p>
+                <div class="weather-info">
+                    <div>
+                        <span>💧</span>
+                        <b id="humidity">
+                            --
+                        </b>
+                        <small>
+                            Humidity
+                        </small>
+                    </div>
+                    <div>
+                        <span>💨</span>
+                        <b id="wind">
+                            --
+                        </b>
+                        <small>
+                            Wind km/h
+                        </small>
+                    </div>
+
+                    <div>
+                        <span>🌡️</span>
+                        <b id="feels">
+                            --
+                        </b>
+                        <small>
+                            Feels Like
+                        </small>
+                    </div>
+                </div>
+             </div>
+        </div>
+      </main>
+
+      <footer>
+        <p>
+            © 2026 InfoHub | BCA Minor Project 
+        </p>
+      </footer>
+
+      <script src="./js/script.js"></script>
+</body>
+</html>

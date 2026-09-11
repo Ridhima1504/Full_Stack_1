@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Finder</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+     <nav>
+        <h2>🌍 InfoHub</h2>
+        <div>
+            <a href="index.html">
+                Home
+            </a>
+
+            <a href="weather.html">
+                Weather
+            </a>
+
+            <a href="movies.html">
+                Movies
+            </a>
+        </div>
+     </nav>
+
+     <!-- Movie Page -->
+      <main class="page">
+        <div class="movie-search">
+            <p class="small-title">
+                MOVIE FINDER
+            </p>
+
+            <h1>
+                Find your next movie
+            </h1>
+
+            <p>
+                Search for a movie and explore its details.
+            </p>
+
+            <form action="" id="movieForm">
+                <input 
+                    type="text"
+                    id="movie"
+                    placeholder="Enter movie name..."
+                    required
+                >
+
+                <button type="submit">
+                    Search
+                </button>
+            </form>
+
+            <p id="movieMessage"></p>
+
+            <!-- Movies -->
+             <div id="movieList" class="movie-list"></div>
+        </div>
+      </main>
+
+      <footer>
+        <p>
+            © 2026 InfoHub | BCA Minor Project
+        </p>
+      </footer>
+
+      <script src="./js/script.js"></script>
+</body>
+</html>
