@@ -255,7 +255,6 @@ button:focus-visible, input:focus-visible, textarea:focus-visible, select:focus-
   .topbar { height: 76px; }
   .topbar h2 { font-size: 18px; }
   .hero-card h3 { font-size: 37px; }
-  
   .stats-grid { grid-template-columns: 1fr 1fr; }
   .task-form { grid-template-columns: 1fr; }
   .task-form .primary-button { width: 100%; }
