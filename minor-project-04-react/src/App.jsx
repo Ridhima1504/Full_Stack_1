@@ -83,6 +83,8 @@ export default function App() {
 
   return (
     <div className="app-shell">
+      {menuOpen && <div className="sidebar-backdrop" onClick={() => setMenuOpen(false)} />}
+
       <aside className={`sidebar ${menuOpen ? "open" : ""}`}>
         <div className="brand">
           <div className="brand-mark">F</div>
